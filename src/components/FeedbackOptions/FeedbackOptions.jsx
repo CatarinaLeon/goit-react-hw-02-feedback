@@ -8,7 +8,7 @@ export const FeedbackOptions = ({ categories, onClickBtn }) => {
                     type="button"
                     onClick={() => onClickBtn(category)}
                 >
-                    {categories}
+                    {category}
                 </button>
             ))}
         </div>
